@@ -21,6 +21,14 @@ body {
 header {
    display: grid;
 }
+
+
+.svg-search {
+    width: 25px;
+    margin-left: 20px;
+   
+   
+}
 .grey-up-bar {
     border: 1px solid black;
     width: 100vw;
