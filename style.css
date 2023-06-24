@@ -1,0 +1,359 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,600;1,800&family=Rajdhani:wght@400;600&display=swap');
+
+
+
+
+
+
+
+body * {
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+header {
+   display: grid;
+}
+.grey-up-bar {
+    border: 1px solid black;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    
+    background-color: darkgray;
+}
+
+.f-nav {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar-header {
+    display: flex;
+  
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between; 
+  
+}
+
+
+.img-logo {
+    width: 20%;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+.nav-container-menu {
+   display: flex;
+  
+  width: 100%;
+ 
+}
+
+
+.menu-items-list {
+    width: 100%;
+    
+}
+.menu-items-list ul li {
+   text-align: right;
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+  
+}
+
+.menu-items-list ul li a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box-img-slide  {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100vw;
+    height: 500px;
+    background-image: url(./assets/slider4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-slide-box h2 {
+    color: #d4a44f;
+    text-shadow: 2px 2px 4px #333;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+
+.about-button {
+    color: white;
+border: 1px solid white;
+border-radius: 7px;
+margin-right: 10px;
+font-size: 16px;
+line-height: 1.5;
+padding: 10px;
+margin-left: 20px;
+background-color: #dddddd00;
+float: left;
+width: fit-content;
+height: fit-content;
+text-align: center;
+
+}
+
+.box-text-center-slide {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.svg-hand {
+    width: 30px;
+   padding-right: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.text-axia-slide {
+    color: white;
+    text-align: right;
+    font-family: 'Noto sans';
+    border-right: 1px white solid ;
+    padding-right: 30px;
+}
+
+
+.section2 {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    grid-template-areas: "img-fing h2-2" "img-fing text2" "img-fing butt2";
+    padding-top: 60px;
+    margin: 50px;
+  
+  
+    
+}
+
+
+
+.img-left-container2 {
+    grid-area: img-fing;
+    width: 100%;
+
+    
+    
+}
+
+.img-fing-star {
+    width: 100%;
+}
+
+
+.h2-sec2 {
+    margin-top: 0px;
+    grid-area: h2-2;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch:condensed;
+    
+    padding-bottom: 0px;
+   
+    letter-spacing: -1px;
+}
+
+.section2 h2 {
+    margin-top: 0px;
+}
+
+.text-box-right-sec2 {
+
+    margin-left: 30px;
+    
+}
+
+.text-inside-cont-sec2 {
+    
+    grid-area: text2;
+line-height: 24px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Noto sans';
+    color: #555;
+    
+}
+
+.button-sec2-inf {
+    grid-area: butt2;
+    margin-top: 30px;
+    
+}
+
+.button-sec2-inf button {
+   
+    background-color: #0069ab;
+color: #FFFFFF;
+font-family: 'Rajdhani', sans-serif;
+
+font-size: 16px !important;
+font-weight: 600 !important;
+text-transform: uppercase !important;
+padding: 8px 28px;
+margin-right: 3px;
+border: 1px solid transparent;
+}
+
+
+
+
+
+
+.section3 {
+    padding-top: 20px;
+    background-image: url(./assets/bg-sec3.png);
+    background-repeat: repeat;
+}
+
+.h2-sec3-center {
+    margin: auto;
+    text-align: center;
+}
+
+.col33-card {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+.col33-card h3 {
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+    letter-spacing: -1px;
+}
+
+.card33-1, .card33-2, .card33-3 {
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    line-height: 28px;
+}
+
+
+
+.col25-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+
+.section-4 {
+    background-image: url(./assets/bg-sec4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-4 img {
+width: 100%;
+
+
+}
+
+.h3-sec4 {
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.card-col25-1,.card-col25-2,.card-col25-3,.card-col25-4 {
+    width: 20%;
+    padding: 20px;
+    
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    line-height: 28px;
+    box-shadow: 0 0 3px 3px rgba(30,30,30,0.15);
+    background-color: #eaeaea;
+    padding: 13px;
+    margin: 13px;
+   
+}
+
+.col25-card-container h3 {
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    
+    
+}
+
+.section-4 button {
+    color: #0069ab !important;
+background-color: #ffffff !important;
+border-color: #0069ab !important;
+font-family: Rajdhani, "Noto Sans";
+font-size: 16px !important;
+font-weight: 600 !important;
+text-transform: uppercase !important;
+padding: 10px 20px;
+border-radius: 4px;
+align-items: flex-end;
+}
+
+.center-button-sec4 {
+    margin: auto;
+    text-align: center;
+  margin-top: 20px;
+    padding-bottom: 100px;
+    
+}
