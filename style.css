@@ -368,22 +368,18 @@ align-items: flex-end;
 }
 
 
-.section-5 {
-   display: inline-block;
-   
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 1fr 1fr;
+.grid-col4-sec5 {
+   display: grid;
+    grid-template-columns: 30% 30% 1fr;
+    
     height: 800px;
-    
-    
     grid-template-areas: 
-    "h3-sec5 h3-sec5 h3-sec5"
-    "card1 card2 penc" 
-    "card1 card2 penc" ; */
+    
+    "card1 card2 penc";
 
 }
 .h3-cent-sec5 {
-    grid-area: h3-sec5;
+   
 }
 
 
@@ -403,6 +399,6 @@ align-items: flex-end;
 
 .img-50-pencil {
     grid-area: penc;
-    text-align: right;
+    
 
 }
