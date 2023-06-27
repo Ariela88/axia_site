@@ -15,7 +15,8 @@ body {
 header {
     display: grid;
 }
-.header-content {
+.social-bar {
+   
    
 }
 
@@ -33,6 +34,7 @@ header {
     position: sticky;
     top: 0;
     background-color: darkgray;
+    float: inherit;
 }
 
 
@@ -41,7 +43,7 @@ header {
     padding-left: 30px;
     padding-right: 30px;
     position: fixed;
-    top: 0;
+    top: 0px;
     height: 100px;
     width: 100vw;
     background: #ffffff;
