@@ -15,9 +15,12 @@ body {
 header {
     display: grid;
 }
-.social-bar {
-   
-   
+
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
 }
 
 
@@ -40,16 +43,16 @@ header {
 
 .nav-bar-header {
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
     position: fixed;
     top: 0px;
     height: 100px;
     width: 100vw;
     background: #ffffff;
     border-bottom: 1px solid #ddd;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-evenly;
+   
 
 }
 
@@ -371,13 +374,15 @@ button a {
 
 .section-5 {
     display: grid;
-    grid-template-columns: 30% 30% 1fr;
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 20% 1fr;
     height: 800px;
     grid-template-areas:
-        "h3-sec5 h3-sec5 h3-sec5"
+        
         "card1 card2 penc";
     gap: 30px;
+    margin: auto;
+    padding-top: 100px;
 
 }
 
@@ -407,7 +412,7 @@ justify-items:start;
 text-align: right;
 color: #0069ab !important;
 font-family: Rajdhani, sans-serif;
-font-size: 30px;
+font-size: 22px;
 font-weight: 700;
 
 
@@ -419,8 +424,9 @@ font-weight: 700;
     text-align: left;
     color: #0069ab !important;
     font-family: Rajdhani, sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
+    margin: 0;
 
 
 }
